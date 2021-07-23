@@ -1,0 +1,24 @@
+{
+  "name": "angrybytes/quatsch",
+  "description": "PHP library for generating dummy data",
+  "authors": [
+    {
+      "name": "Angry Bytes",
+      "email": "info@angrybytes.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Quatsch\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "lint": "phpstan analyse -l max src/"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "phpstan/phpstan": "^0.12.93",
+    "phpunit/php-invoker": "^3.1"
+  }
+}
